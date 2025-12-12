@@ -1,0 +1,225 @@
+body{
+    font-family:'lato';
+}
+#title {
+    background: #5c4033;
+    font-family:'DM serif display';
+    color:rgb(0, 0, 0);
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+h1 {
+    font-family: 'raleway';
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+    color:white;
+}
+
+h2{
+    color:white;
+    font-family: 'raleway';
+    font-size: 1.5;
+    font-weight: bold;
+    text-align:center;
+}
+
+h3{
+    font-family: 'raleway';
+    font-weight: bold;
+    font-size:x-large;
+}
+
+p{
+    color:#510303;
+}
+
+.navbar{
+    padding:15px;
+    padding-right:25px;
+    padding-left:25px;
+    background: #f2dcc5;
+
+}
+
+.navbar-brand{
+    font-family: 'DM serif display';
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+
+.nav-item{
+    padding: 0 18px;
+    
+}
+
+.nav-link{
+    font-family:'lato';
+    font-size:1.2rem;
+    color:aquamarine;
+
+}
+
+
+.title-image{
+    background-image:url('../images/ball_yarn.jpg');
+    background-size:cover;
+    text-align:center;
+    padding: 10%;
+    border: 20px solid #5c4033;
+    font-family:'DM serif display';
+}
+
+
+/* COGS3 studyBuddy specific styles go here. */
+
+/* features carousel */
+
+#features{
+    background-color: #f2dcc5;
+    padding: 5% 5%;
+    text-align: center;
+
+}
+
+.section-heading{
+    margin-bottom: 0.5rem;
+    color:black;
+}
+
+.section-intro{
+    max-width: 700px;
+    margin: 0 auto 2rem auto;
+    text-align: center;
+    font-size:large;
+}
+
+.feature-box{
+    text-align: center;
+}
+
+.feature-image{
+    text-align:center;
+    width: 35%;
+
+}
+.icon{
+    color:#8a0e0e;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color:#db1d1d;
+}
+
+
+/* testiminials section */
+#process {
+    padding: 7% 13%;
+    text-align: center;
+    background-color: #f2dcc5;
+}
+.carousel-item{
+    padding:7% 15%;
+    background-color:#e66956;
+}
+
+.testimonial-image{
+    width:15%;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+
+/*gap*/
+.divider{
+    height:10px;
+    background-color:#8a0e0e;
+    width:100%;
+}
+/*Pricing Section*/
+#pricing{
+    padding: 50px;
+    text-align: center;
+    background-color:#f2dcc5;
+}
+
+.pricing-header {
+    color: #000;
+}
+
+.pricing-image{
+    height:50%;
+    width:50%;
+    padding:5%;
+}
+.pricing-column{
+    padding:3% 2%;
+}
+
+.card-header{
+    background-color:#fae7d4;
+}
+.card-body{
+    background-color:#fff4e9;
+}
+
+.btn-outline-dark:hover{
+    background-color:#8a0e0e;
+    color:black;
+    border-color:#8a0e0e;
+}
+
+.card-text{
+    margin-top:1rem;
+    font-size:large;
+}
+
+/*Gallery*/
+
+#gallery{
+    text-align: center;
+    background-color:#f2dcc5;
+}
+/*Call to Action Section CTA */
+#cta{
+    background-color:#510303;
+    color:#fff;
+    padding: 40px 15px;
+    text-align:center;
+}
+
+.cta-inner{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.cta-heading{
+    color:#fff;
+    margin-bottom: 1rem;
+}
+
+.cta-text{
+    color:#fff4e9;
+    margin-bottom: 1.5rem;
+}
+
+.cta-buttons .btn{
+    margin: 0.25rem;
+}
+
+/*Footer Section*/
+#footer{
+    text-align:center;
+    background-color:#510303;
+    color:#fff;
+    padding: 15px 0;
+}
+
+.social-icon{
+    margin: 0 10px;
+}
